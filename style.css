@@ -1,3 +1,24 @@
 body{
     background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.cell{
+    background-color: aquamarine;
+    min-height: 20px;
+    min-width: 20px;
+}
+
+.row{
+    display: flex;
+    justify-content:center;
+    gap:2px;
+    margin-bottom: 2px;
+    flex-direction:row; 
+    align-items:center;
+}
+
+.painted{
+    background-color: blueviolet;
 }
