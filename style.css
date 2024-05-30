@@ -6,8 +6,9 @@ body{
 
 .cell{
     background-color: aquamarine;
-    min-height: 20px;
-    min-width: 20px;
+    /*min-height: 20px;
+    min-width: 20px;*/
+    flex: 1;
 }
 
 .row{
@@ -34,4 +35,14 @@ body{
 
 h1{
     text-align: center;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    width: 960px;
 }

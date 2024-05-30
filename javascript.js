@@ -14,6 +14,7 @@ function drawGrid(rows) {
 
         for(let i=0; i < rows; i++){ //Create cells
             const cell = document.createElement("div");
+            cell.textContent=".";
             cell.classList.add("cell");
             row.appendChild(cell)
         }
